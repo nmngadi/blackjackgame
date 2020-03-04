@@ -1,6 +1,3 @@
-//const THOROUGH_SHUFFLE: number = 500;
-//const DEALER_STOP_VALUE: number = 17;
-
 export let cardSuits: string[] = ["Hearts", "Club", "Diamond", "Spade"];
 export let cardValues: string[] = [
   "2",
