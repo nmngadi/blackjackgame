@@ -1,0 +1,2 @@
+Queen:Spades:10,Ace:Hearts:1,Pip:Hearts:3;
+Queen:Spades:10,Ace:Hearts:1,Pip:Hearts:3;

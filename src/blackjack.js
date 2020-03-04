@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var fileservice_1 = require("./fileservice");
+console.log(fileservice_1.readdata());
+var counterrounds = new Array();
+counterrounds = fileservice_1.readdata();
+var fsplit = counterrounds[0].split(",", 3)[2].split(":");
+var psplit = counterrounds[0].split(",", 2);
+console.log(fsplit);
+console.log(psplit);
+console.log(psplit);
