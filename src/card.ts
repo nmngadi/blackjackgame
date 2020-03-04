@@ -1,5 +1,5 @@
-const THOROUGH_SHUFFLE: number = 500;
-const DEALER_STOP_VALUE: number = 17;
+//const THOROUGH_SHUFFLE: number = 500;
+//const DEALER_STOP_VALUE: number = 17;
 
 export let cardSuits: string[] = ["Hearts", "Club", "Diamond", "Spade"];
 export let cardValues: string[] = [
@@ -39,12 +39,12 @@ export default class Card {
         case "Ace":
           score = 1; // score of 1 will have a special clause in the Hand class to handle the duality of the Ace
           break;
-       
-         case "2":
-         score=2
-         break;
 
-         default:
+        case "2":
+          score = 2;
+          break;
+
+        default:
         //throw Error(`Card value ${value} is invalid`);
       }
     }
@@ -64,6 +64,4 @@ export default class Card {
   public getScore(): number {
     return this.score;
   }
-
-  
 }
