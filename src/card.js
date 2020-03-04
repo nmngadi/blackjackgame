@@ -1,7 +1,5 @@
 "use strict";
 exports.__esModule = true;
-var THOROUGH_SHUFFLE = 500;
-var DEALER_STOP_VALUE = 17;
 exports.cardSuits = ["Hearts", "Club", "Diamond", "Spade"];
 exports.cardValues = [
     "2",
